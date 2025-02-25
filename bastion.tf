@@ -34,12 +34,3 @@ resource "aws_instance" "bastion" {
     Name = "BastionHost"
   }
 }
-
-variable "aws_region" {}
-variable "vpc_id" {}
-variable "public_subnet_id" {}
-variable "ami_id" {}
-variable "instance_type" { default = "t3.micro" }
-variable "key_name" {}
-variable "allowed_ssh_cidr" { default = ["0.0.0.0/0"] }
-
