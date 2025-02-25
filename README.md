@@ -32,8 +32,8 @@ The configuration uses the following variables:
 
 1. **Clone the Repository**
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/iam-jawad/ec2_bastion_host.git
+   cd ec2_bastion_host
    ```
 
 2. **Initialize Terraform**
